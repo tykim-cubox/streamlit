@@ -3,10 +3,7 @@ mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
 mmsegmentation==0.23.0
 numpy==1.21.5
 pandas
-opencv-python
-libsm6
-libxext6
-ffmpeg
+opencv-python-headless
 Pillow==9.1.0
 plotly==5.6.0
 requests==2.27.1
