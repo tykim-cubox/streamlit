@@ -16,5 +16,5 @@ torch-optimizer==0.1.0
 pytorch_lightning==1.6.0
 altair==4.2.0
 ffmpeg
-libsm6
-libxext6
+freeglut3-dev
+libgtk2.0-dev
