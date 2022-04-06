@@ -3,7 +3,6 @@ channels:
   - defaults
 dependencies:
   - cudatoolkit=11.3
-  - opencv
   - pytorch
   - torchvision
 prefix: /home/aiteam/anaconda3/envs/ffcv
