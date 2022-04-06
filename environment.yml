@@ -9,10 +9,10 @@ dependencies:
   - pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
   - torchvision
   - plotly=5.6.0=py_0
-  - pillow=9.0.1=py39hae2aec6_2
   - pip:
     - matplotlib==3.5.1
     - pandas
+    - Pillow==9.1.0
     - opencv-python-headless
     - streamlit_drawable_canvas==0.9.0
     - torchmetrics==0.7.3
