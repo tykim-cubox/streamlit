@@ -1,30 +1,22 @@
-name: ffcv
+name: minimal-streamlit-example
 channels:
-  - pytorch
-  - plotly
-  - conda-forge
-  - defaults
+- defaults
+- conda-forge
+- ericmjl
 dependencies:
-  - python=3.9
-  - conda
-  - pip
-  - cudatoolkit=11.3
-  - pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
-  - torchvision
-  - plotly=5.6.0=py_0
-  - pip:
-    - streamlit
-    - matplotlib==3.5.1
-    - pandas
-    - Pillow==9.1.0
-    - opencv-python-headless
-    - streamlit_drawable_canvas==0.9.0
-    - torchmetrics==0.7.3
-    - torchvision==0.12.0
-    - torch-optimizer==0.1.0
-    - pytorch_lightning==1.6.0
-    - altair==4.2.0
-    - ffmpeg
-    - mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
-    - mmsegmentation
-prefix: /home/aiteam/anaconda3/envs/ffcv
+- conda
+- scikit-learn
+- scipy
+- pandas
+- numpy
+- matplotlib
+- pip
+- pylint
+- pydocstyle
+- flake8
+- black
+- hvplot
+- bokeh
+- holoviews
+- pip:
+  - streamlit
