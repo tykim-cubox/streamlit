@@ -5,12 +5,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.8
+  - conda
+  - pip
   - cudatoolkit=11.3
   - pytorch=1.11.0=py3.9_cuda11.3_cudnn8.2.0_0
   - torchvision
   - plotly=5.6.0=py_0
-  - pip
   - pip:
+    - streamlit
     - matplotlib==3.5.1
     - pandas
     - Pillow==9.1.0
