@@ -1,0 +1,9 @@
+name: ffcv
+channels:
+  - defaults
+dependencies:
+  - cudatoolkit=11.3
+  - opencv
+  - pytorch=1.11
+  - torchvision
+prefix: /home/aiteam/anaconda3/envs/ffcv
