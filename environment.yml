@@ -5,4 +5,19 @@ dependencies:
   - cudatoolkit=11.3
   - pytorch
   - torchvision
-prefix: /home/aiteam/anaconda3/envs/ffcv
+  - pip:
+    - matplotlib==3.5.1
+    - pandas
+    - opencv-python-headless
+    - Pillow==9.1.0
+    - plotly==5.6.0
+    - streamlit==1.8.1
+    - streamlit_drawable_canvas==0.9.0
+    - torchmetrics==0.7.3
+    - torchvision==0.12.0
+    - torch-optimizer==0.1.0
+    - pytorch_lightning==1.6.0
+    - altair==4.2.0
+    - ffmpeg
+    - mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
+    - mmsegmentation
