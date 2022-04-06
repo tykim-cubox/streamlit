@@ -1,5 +1,4 @@
 matplotlib==3.5.1
-numpy
 pandas
 opencv-python-headless
 Pillow==9.1.0
